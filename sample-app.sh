@@ -10,7 +10,7 @@ cp -r templates/* tempdir/templates/.
 cp -r static/* tempdir/static/.
 
 cat > tempdir/Dockerfile << _EOF_
-FROM python
+FOM python
 RUN pip install flask
 COPY  ./static /home/myapp/static/
 COPY  ./templates /home/myapp/templates/
